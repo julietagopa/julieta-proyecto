@@ -1,3 +1,7 @@
 .letrasRojas {
-   color: solid white;
+   color: red;
+}
+
+.subrayar{
+  text-decoration: underline;
 }

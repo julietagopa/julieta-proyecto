@@ -187,3 +187,34 @@ border: 8px color:white;
 
 
 }
+
+.letra{
+  font-family: 'New Rocker', cursive;
+  font-size: 90px;
+
+
+}
+.letra1{
+  font-family: 'Monoton', cursive;
+    font-size: 90px;
+}
+.letra2{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 90px;
+}
+
+.letra3{
+  font-family: 'Passion One', cursive;
+  font-size: 90px;
+}
+
+.letra4{
+font-family: 'Chelsea Market', cursive;
+font-size: 90px
+
+}
+.letra5{
+  font-family: 'PT Serif', serif;
+  font-size: 90px
+
+}

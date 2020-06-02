@@ -13,9 +13,3 @@ let resMulti=num1*num2;
 
 console.log(numUsu)
 }
-
-
-function actualizar() {
-  Math.random(1,100)
-
-}

@@ -6,6 +6,8 @@ function comprobar() {
 let resMulti=num1*num2;
   if (numUsu ==resMulti) {
     alert("correcto");
+    document.getElementById("numUsu").value= "";
+    random();
   } else {
     alert ("sigue intentando");
   }

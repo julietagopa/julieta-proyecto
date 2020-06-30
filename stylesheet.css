@@ -148,14 +148,14 @@ border: 0px solid #000000;
 
   }
   aside{
-    background-color:#3d5a80; 
+    background-color:#3d5a80;
     text-align:center; width:200px; height:100%;float: left;
     font-family: 'Raleway', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Sen', sans-serif;
      font-size:30px;
-     color: white;
+     color: #f1faee;
      border-radius: 21px 21px 21px 21px;
      -moz-border-radius: 21px 21px 21px 21px;
      -webkit-border-radius: 21px 21px 21px 21px;
@@ -300,11 +300,13 @@ color: #A31621;
 }
 .pp{
   font-family: 'Anton', sans-serif;
-  font-size: 40px;
+  font-size: 60px;
+  color: #faf3dd;
 }
 .albumlet{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 29px;
+  color: #e9ecef;
 }
 .ver{
   background-color: black;
@@ -323,4 +325,20 @@ color: #A31621;
 .background1{
 
   background-color: black;
+}
+.imagenes{
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px;
+}
+.albums{
+  background-color: black;
+
+}
+
+.letra20{
+  color: white;
+}
+.carta{
+color: #2b2d42;
 }

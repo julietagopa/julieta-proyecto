@@ -342,3 +342,34 @@ color: #A31621;
 .carta{
 color: #2b2d42;
 }
+#mundo{
+  display: grid;
+  grid-template-rows:  5% 15% 14% 50px  ;
+  grid-template-columns: 400px 30px 170px 4% 5% 9% 5% 11%;
+ }
+ #america{
+   grid-column-start: 1;
+   grid-column-end: 3;
+ }
+ #africa {
+   grid-column-start: 2;
+   grid-column-end:3 ;
+   grid-row-start: 3;
+ }
+ #europa {
+  grid-column-start: 3;
+  grid-column-end:3 ;
+  grid-row-start: 2;
+}#asia{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+}
+#oceania{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 4; 
+}
+.centrar{
+  justify-content: center;
+}

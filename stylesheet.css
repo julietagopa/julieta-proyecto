@@ -366,7 +366,7 @@ color: #A31621;
 .carta{
 color: #2b2d42;
 }
-<<<<<<< HEAD
+
 #mundo{
   display: grid;
   grid-template-rows:  5% 15% 14% 50px  ;
@@ -397,8 +397,18 @@ color: #2b2d42;
 }
 .centrar{
   justify-content: center;
+
+ 
 }
-=======
+.paisescentrar{
+  text-align: center;
+}
+.centro{
+ display:inline-block ;
+ max-width: 400px ;
+ vertical-align: top;
+}
+
 
 .centradox{
   display: flex;
@@ -461,7 +471,22 @@ color: #62B6CB;
 color: rgb(143, 75, 75);
   transform: scale(1.3);
 }
-
+.card {
   
+  box-shadow: 0 4px 8px 0 rgba(194, 87, 87, 0.2);
+  transition: 0.3s;
+  padding: 2px 46px;
+  height: 300px;
+  width: 300px;
+}
 
->>>>>>> 13f4fd68c3d954e3fd3ef7bf2c86cbfd764ffe82
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#ja, #jo, #ju{
+  display: none;
+}
+
+

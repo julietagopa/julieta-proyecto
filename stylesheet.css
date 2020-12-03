@@ -1,8 +1,19 @@
 .pq {
-  border:3px color: solid white;
+  border:3px solid white;
 
 }
 .titulo{
+
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif;
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 75px; 
+  
+}
+.tituloind{
 
   font-family: 'Raleway', sans-serif;
   font-family: 'Playfair Display', serif;
@@ -10,7 +21,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-    font-size: 75px; 
+    font-size: 200px; 
   
 }
 .titulo1{
@@ -50,18 +61,17 @@ h2{
     font-size: 100px; 
 
 }
-.o{
+/*.o{
   float: up;
   display: flex;
-  border: ;
   align: left;
 
-}
+}*/
 .sp{
   font-family: 'Raleway', sans-serif;
   font-family: 'Playfair Display', serif;
    color: rgb(66, 130, 160);
-  align-text:center;
+  text-align: center;
   display: inline;
   font-size:50px;
   align-items: center;
@@ -77,9 +87,8 @@ h2{
    padding-right:35px;
    font-size: 70px;
    text-align:center;
-   
    width: 100%;
-   border:3px color: solid white;
+   border:3px  solid white;
    float: left;
 }
 .j{
@@ -89,8 +98,8 @@ h2{
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Sen', sans-serif;
   color:white;
-  font-size: 30px
-  aling:right;
+  font-size: 30px;
+  /*aling:right;*/
   display: inline-grid;
 
 
@@ -102,8 +111,8 @@ h2{
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Sen', sans-serif;
   color:black;
-  font-size: 100px
-  aling:right;
+  font-size: 100px;
+  /*aling:right;*/
   display: inline-grid;
 
 }
@@ -114,7 +123,7 @@ h2{
   color: solid white;
   font-size: 25px;
   display:inline-block;
-  align:right;
+  /*align:right;*/
 
 }
 
@@ -132,12 +141,8 @@ body {
 border: 0px solid #000000;
 
   }
-  section { background-color: ;
-
-  }
-  .principal{
+    .principal{
     display: inline-block;
-    border:;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -147,26 +152,22 @@ border: 0px solid #000000;
   }
   .borde{
     background-color:#000000; display:inline-block; text-align:center;
-    border:  solid #;
-    aling:center;
+    align-items:center;
      text-align:center;
-      aling-items: center;
       justify-content: center;
        left:20%;
         top:50%;display:inline-center;
-        align= center;
-        style="text-align:center;display:inline-block;aling-items:center;justify-content:center;left:50%; top:50%;
+        align: center;
         border-radius: 21px 21px 0px 0px;
         -moz-border-radius: 21px 21px 0px 0px;
         -webkit-border-radius: 21px 21px 0px 0px;
         border: 0px solid #000000;
 
-
+  }
   .fondo{
    background-color:#1282A2
  }
 
-  }
   article{
     background-color:black;
     width: 100%;
@@ -227,12 +228,12 @@ justify-content: center;
   font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Sen', sans-serif;
   color:white;
-  font-size: 90px
-  aling:center;
+  font-size: 90px;
+  align:center;
   display: inline-grid;
 }
 .go{
-border: 8px color:white;
+border: 8px white;
 
 
 }
@@ -431,6 +432,7 @@ color: #2b2d42;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  size: 500px;
   
 }
 .centradogeneros{
@@ -505,5 +507,15 @@ color: rgb(143, 75, 75);
 #ja, #jo, #ju{
   display: none;
 }
+.titulow{
 
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif;
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 75px; 
+  
+}
 

@@ -131,7 +131,7 @@ h2{
     background-color: black;
      }
 body {
-   background-color:#000000;
+   background-color:#000000 !important; 
   }
 
   main{
@@ -403,9 +403,9 @@ color: #2b2d42;
   grid-row-start: 1;
 }
 #oceania{
-  grid-column-start: 7;
-  grid-column-end: 7;
-  grid-row-start: 4; 
+  grid-column-start: 6;
+  grid-column-end: 6;
+  grid-row-start: 3; 
 }
 .centrar{
   justify-content: center;
@@ -513,19 +513,21 @@ color: rgb(143, 75, 75);
 }
 .titulow{
 
-<<<<<<< HEAD
-.lodeatras{
-  background-color: #000000;
-}
-=======
   font-family: 'Raleway', sans-serif;
   font-family: 'Playfair Display', serif;
    color: rgb(255, 255, 255);
    display: flex;
-   justify-content: center;
+   text-align: center;
    align-items: center;
+   justify-content: center !important;
     font-size: 75px; 
   
 }
 
->>>>>>> 590a57348b672355aa2e436645a8e38fe26c8ef1
+
+//*.continente:hover{
+width: 500px;
+height: auto;
+
+}
+

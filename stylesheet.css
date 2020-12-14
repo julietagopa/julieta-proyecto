@@ -10,6 +10,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
     font-size: 75px; 
   
 }
@@ -59,7 +60,7 @@ h2{
 .sp{
   font-family: 'Raleway', sans-serif;
   font-family: 'Playfair Display', serif;
-   color: rgb(66, 130, 160);
+   color: rgb(255, 255, 255);
   text-align: center;
   display: inline;
   font-size:50px;
@@ -322,9 +323,12 @@ color: #caf0f8;
   font-size: 27px;
 }
 .albumst{
-  font-family: 'Great Vibes', cursive;
-  font-size: 51px;
-color: #A31621;
+  font-family: cooper-black-std, serif;
+font-weight: 400;
+font-style: normal;
+color: #edf2f4;
+
+
 }
 .pp{
   font-family: 'Anton', sans-serif;
@@ -474,11 +478,13 @@ display: flex;
 align-self: center;
 margin-left: 30px;
 font-family: 'Varela Round', sans-serif;
-color: #62B6CB;
+color: #1afe49;
+text-decoration: none;
 }
 .hijomenu:hover{
-color: rgb(143, 75, 75);
+color: rgb(255, 255, 255);
   transform: scale(1.3);
+  text-decoration: none;
 }
 .card {
   

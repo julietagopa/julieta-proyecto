@@ -518,6 +518,14 @@ color: rgb(255, 255, 255);
    text-align: justify;
    background-color: rgb(114, 9, 9);
     font-family: 'Raleway', sans-serif;
+  }
+.centradoplay{
+  display:flex;
+  align-items:left;
   
-
 }
+/*.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,1100px);
+  grid-gap: 5px;
+}*/

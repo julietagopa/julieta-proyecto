@@ -405,7 +405,7 @@ color: #2b2d42;
   grid-row-start: 3; 
 }
 .centrar{
-  justify-content: center;
+  justify-content: center !important;
 
  
 }
